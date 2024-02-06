@@ -97,6 +97,8 @@ pub fn idx_xy(idx: usize) -> (i32, i32) {
 embedded_resource!(TILE_FONT, "../resources/example_tiles.png");
 
 fn main() -> BError {
+    link_resource!(TILE_FONT, "resources/example_tiles.png");
+
     let mut context = BTermBuilder::new()
         .with_dimensions(WIDTH, HEIGHT)
         .with_tile_dimensions(16, 16)
