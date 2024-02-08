@@ -248,6 +248,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "castle-generator"
+version = "0.1.0"
+dependencies = [
+ "bracket-lib",
+ "rltk",
+ "specs",
+ "specs-derive",
+]
+
+[[package]]
 name = "cc"
 version = "1.0.83"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -275,15 +285,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0ced0551234e87afee12411d535648dd89d2e7f34c78b753395567aff3d447ff"
 dependencies = [
  "libc",
-]
-
-[[package]]
-name = "chapter-04-newmap"
-version = "0.1.0"
-dependencies = [
- "rltk",
- "specs",
- "specs-derive",
 ]
 
 [[package]]

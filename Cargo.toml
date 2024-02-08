@@ -1,12 +1,13 @@
 [package]
-name = "chapter-04-newmap"
+name = "castle-generator"
 version = "0.1.0"
-authors = ["Herbert Wolverson <herberticus@gmail.com>"]
-edition = "2018"
+authors = ["Aaron Askew <aaronaskew@gmail.com>"]
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bracket-lib = "0.8.7"
 rltk = { version = "0.8.0" }
 specs = "0.20.0"
 specs-derive = "0.4.1"
